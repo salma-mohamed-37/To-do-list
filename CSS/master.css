@@ -1,0 +1,99 @@
+body
+{
+    font-family:'Times New Roman', Times, serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    width:100%;
+}
+
+html {position: relative;  min-height: 100%; }
+
+li{ list-style-type: none;padding: 0;margin: 0; }
+
+ul
+{
+    background-color: white; 
+    border: 2px #0e81ab solid; 
+    padding: 0;
+    float: left; 
+    width:50%;
+}
+
+textarea {min-width: 45%;}
+
+form
+{
+    font-size: 200%;
+    width:fit-content;
+    margin: auto;
+    padding: 5px;
+    color: #0e81ab;
+}
+
+input[type=button]:hover, input[type=submit]:hover ,.fa-solid:hover {cursor: pointer;}
+
+input[type=text] , input[type=password] , textarea
+{
+    font-size: 90%;
+    margin:5px;
+    color: #0e81ab;
+    border: none;
+    border-bottom: 2px  #0e81ab  solid ;
+    font-family:'Times New Roman', Times, serif;
+}
+
+input[type=text]:focus , input[type=password]:focus , textarea:focus
+{
+    outline: 0;
+    border-bottom: 4px  #0e81ab solid;
+}
+
+input[type=button], input[type=submit]
+{
+    background-color: #0e81ab;
+    font-size: 80%;
+    font-family:'Times New Roman', Times, serif;
+    color: white;
+    border: none;
+}
+
+span
+{
+    color:red;
+    font-size: 20px;
+}
+
+.footer
+{
+    color: white;
+    font-size: 20px;
+    background-color: #0e81ab;
+    position :absolute;
+    bottom: 0;
+    width: 100%;
+
+}
+
+.fa-solid
+{
+    color: #0e81ab;
+}
+
+.header
+{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    background-color:#0e81ab;
+    font-weight: bold;
+}
+
+.profile
+{
+    color: #0e81ab;
+    font-size: 200%;
+    margin: 5px;
+}
+
+
