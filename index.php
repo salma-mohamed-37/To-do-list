@@ -11,7 +11,6 @@
             SIGN UP <br/>
             <span>
                 - All fields of form are required <br>
-                - Full name doesn't contain numbers or special characters <br>
                 - Password is at least 8 characters with at least 1 number and 1 special character <br>
                 - Password must match confirm password <br>
               </span>
